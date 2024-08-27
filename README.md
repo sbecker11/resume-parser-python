@@ -10,20 +10,25 @@ python3 -m pip install -r requirements.txt;
 ```
 
 ### use anthropic claude to extract json structure from a pdf file
-```python resume_parser.py resume-inputs/proj-mngr.pdf resume-outputs/proj-mngr-pdf.json```
+```python resume_parser.py inputs/proj-mngr.pdf outputs/proj-mngr-pdf.json```
 
 ### use anthropic claude to extract json structure from a docx file
-```python resume_parser.py resume-inputs/proj-mngr.docx resume-outputs/proj-mngr-docx.json```
+```python resume_parser.py inputs/proj-mngr.docx outputs/proj-mngr-docx.json```
 
 ### verify that the extracted json files are -nearly- identical  
-```diff resume-outputs/proj-mngr-pdf.json resume-outputs/proj-mngr-docx.json```
+```diff outputs/proj-mngr-pdf.json outputs/proj-mngr-docx.json```
 
-### compute the json-schema of the json file from the pdf file
-```python compute_json_schema.py resume-outputs/proj-mngr-pdf.json resume-outputs/proj-mngr-pdf-schema.json```
+### compute the json-schema of the json file from the pdf json file
+```python compute_json_schema.py outputs/proj-mngr-pdf.json outputs/proj-mngr-pdf-schema.json```
 
-### compute the json-schema of the json file from the docx file
-```python compute_json_schema.py resume-outputs/proj-mngr-docx.json resume-outputs/proj-mngr-docx-schema.json```
+### compute the json-schema of the json file from the docx json file
+```python compute_json_schema.py outputs/proj-mngr-docx.json outputs/proj-mngr-docx-schema.json```
 
 ### verify that the json-schema files are -nearly- identical
-```diff resume-outputs/proj-mngr-pdf-schema.json resume-outputs/proj-mngr-docx-schema.json```
+```diff outputs/proj-mngr-pdf-schema.json outputs/proj-mngr-docx-schema.json```
 
+## validate the proj-mngr-pdf.json data object against the resume schema
+```python validate_data_object.py outputs/resume-pdf.json inputs/resume-schema.json```
+
+## validate the proj-mngr-docx.json data object against the resume schema
+```python validate_data_object.py outputs/resume-docx.json inputs/resume-schema.json ```

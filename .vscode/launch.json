@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "parse resume proj-mngr.pdf into data object proj-mngr-pdf.json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/validate_data_object.py",
+            "args": ["inputs/proj-mngr.pdf", "outputs/proj-mngr-pdf.json"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "parse resume proj-mngr.docx into data object proj-mngr-docx.json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/validate_data_object.py",
+            "args": ["inputs/proj-mngr.docx", "outputs/proj-mngr-docx.json"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "validate_data_object proj-mngr-pdf.json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/validate_data_object.py",
+            "args": ["outputs/proj-mngr-pdf.json"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "validate_data_object proj-mngr-docx.json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/validate_data_object.py",
+            "args": ["outputs/proj-mngr-docx.json"],
+            "console": "integratedTerminal"
+        }
+    ]
+}

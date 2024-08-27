@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+python validate_data_object.py ./outputs/proj_mngr_docx.json

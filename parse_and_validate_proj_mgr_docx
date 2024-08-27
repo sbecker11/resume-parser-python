@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+python resume_parser.py ./inputs/proj-mngr.docx ./outputs/proj-mngr-docx.json
+
+python validate_data_object.py ./outputs/proj-mngr-docx.json
+
