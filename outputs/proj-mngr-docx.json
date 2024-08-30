@@ -1,6 +1,6 @@
 {
   "contactInformation": "SHAWN BECKER\nLehi, UT \u2022 (857) 891-0896 \u2022 sbecker@alum.mit.edu",
-  "positionOrProfessionalTitle": "\u2022 Senior Technical Project Manager / Data Engineer / Data Architect \u2022",
+  "positionOrProfessionalTitle": "Senior Technical Project Manager / Data Engineer / Data Architect",
   "professionalSummary": "With over 15 years of experience as a Technical Project Manager, Data Engineer, and Data Architect, I excel in problem-solving and leading teams to deliver innovative solutions to complex challenges across diverse industries, including entertainment, healthcare, finance, and manufacturing. My expertise includes creating scalable, secure, high-volume data pipelines leveraging cloud infrastructure and domain-specific data architecture while employing machine learning models to optimize data-driven decision-making processes. I thrive in dynamic environments, applying Agile methodologies to facilitate my team's focus on building working increments of well-architecture solutions that meet product owners' expectations. Driven by a passion for continuous learning, I relish tackling new challenges and achieving excellence in every project.",
   "workExperience": [
     {
@@ -8,9 +8,9 @@
       "location": "Washington, DC",
       "duration": {
         "start": "Feb 2024",
-        "end": "Jul 2024"
+        "end": "Jun 2024"
       },
-      "positionOrTitle": "Senior Data Engineer / Data Architect",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Documented processes to build, test, and deploy data pipeline components for in-house ETL framework.",
         "Extensive work with SQL, AWS Redshift, Glue, S3, IAM, Lambda, REST, Postman, SNS, and dbt.",
@@ -24,7 +24,7 @@
         "start": "May 2023",
         "end": "Dec 2023"
       },
-      "positionOrTitle": "Senior Data Engineer / Data Architect",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Modernized applications via Jenkins CI/CD pipeline upgrade, integrating SetupTools, Artifactory/PyPI, SonarQube, and Xray.",
         "Investigated and implemented preparation of legacy ETL data pipeline components, migrating from on-prem Unity IoC apps to the AWS cloud using change data capture.",
@@ -39,7 +39,7 @@
         "start": "Oct 2022",
         "end": "April 2023"
       },
-      "positionOrTitle": "Senior Data Engineer / Data Scientist",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Utilized PySpark for ETL/ELT processes and Python for third-party integrations and dev-ops collaborations with Jenkins, DataDog, and ZenDesk. Leveraged Google BigQuery and AWS services, including PostgreSQL, Glue, Lambda, and SalesForce.",
         "Developed high-volume pipeline ingress and integrations, enabling efficient and secure game telemetry and user PII data transfer between WB-distributed games and leading marketing platforms using Segment CDP, Kafka, Redshift, Glue, and Airflow.",
@@ -54,7 +54,7 @@
         "start": "Dec 2021",
         "end": "Sep 2022"
       },
-      "positionOrTitle": "Senior Data Scientist / Data Architect",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Utilized AWS SageMaker with machine learning packages Pytorch and Keras to build and tune a supervised CNN for classifying movie frames from episodes digitally stored in S3.",
         "Earned certifications in Advanced Learning Algorithms, Advanced SQL for Data Scientists, and Supervised Machine Learning: Regression & Classification, enhancing professional skills.",
@@ -69,7 +69,7 @@
         "start": "Nov 2020",
         "end": "Nov 2021"
       },
-      "positionOrTitle": "Senior Data Engineer / Data Scientist",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Conducted advanced statistical exploration of real-estate sales data using Python, Pandas, NumPy, SciPy, and Scikit-learn.",
         "Created insightful data visualizations with Seaborn, Plotly, and Matplotlib.",
@@ -100,7 +100,7 @@
         "start": "March 2017",
         "end": "Nov 2019"
       },
-      "positionOrTitle": "Senior Data Engineer / Data Architect",
+      "positionOrTitle": "Senior Data Engineer",
       "responsibilities": [
         "Designed and deployed an AWS data pipeline for the Vela platform, which provided messaging, communication, and collaboration tools for the healthcare industry.",
         "Managed data ingress by queueing API Gateway-delivered message payloads into Amazon Kinesis Data Stream shards. Utilized SNS-triggered Python jobs running on serverless Lambdas to aggregate shard data into date-partitioned Parquet files in an S3 data lake.",
